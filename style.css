@@ -374,3 +374,90 @@ footer{
         line-height: normal;
         padding-bottom: 130px;
 }
+
+
+/* Device Responsive layout */
+
+/* Mobile Responsive layout */
+@media screen and (max-width:576px){
+    .card-container {
+            flex-direction: column;
+        }
+
+    .what-i-do{
+        margin: 5px;
+    }
+    .navbar{
+            flex-direction: column;
+            gap: 0px;
+            padding-left: 0;
+    
+        }
+    .banner{
+        flex-direction: column;
+        text-align: center;
+        padding-left: 0px;
+        width: auto;
+    }
+    .info {
+           flex-direction: column;
+            gap: 0px;
+         
+        }
+    .resume-side {
+        flex-direction: column;
+        gap: 0;
+        }
+    .footer-container{
+                    flex-direction: column;
+                    gap: 0;
+                    margin-left: 0px;
+                    width: auto;
+                    padding: 10px;
+                }
+        
+    body {
+                    margin: 10px;
+                    width: auto;
+                    padding: 10px;
+                }
+    .about {
+            padding: 0px;
+            width: auto;
+            padding: 10px;
+            
+        }
+
+    .info-title {
+   
+        text-align: center;
+
+    }
+    .info-des {
+    
+            text-align: center;
+    
+        }
+
+    .header {
+    
+            background-image: url(images/header_bg.png), none;
+            width: auto;
+           
+    
+        }
+
+    .name , .email , .massage {
+
+
+         width: 480px;
+    
+}
+
+}
+
+
+/* Medium device responsive layout */
+@media screen and (min-width:576px) and (max-width:992px){
+    
+}
